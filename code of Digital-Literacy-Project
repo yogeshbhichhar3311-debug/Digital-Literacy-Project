@@ -1,0 +1,12 @@
+import pandas as pd
+
+# Sample data
+participants = {
+    "Name": ["Alice", "Bob", "Carol"],
+    "Age": [70, 75, 68],
+    "Sessions_Attended": [4, 3, 4],
+    "Skills_Gained": ["Email, Zoom", "Internet Safety", "Google Docs"]
+}
+
+df = pd.DataFrame(participants)
+print(df)
