@@ -1,3 +1,5 @@
+code of Digital-Literacy-Project:
+
 import pandas as pd
 
 # Sample data
@@ -10,3 +12,10 @@ participants = {
 
 df = pd.DataFrame(participants)
 print(df)
+
+
+Output:
+   Name  Age  Sessions_Attended    Skills_Gained
+0  Alice   70                  4      Email, Zoom
+1    Bob   75                  3  Internet Safety
+2  Carol   68                  4      Google Docs
